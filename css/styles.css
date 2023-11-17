@@ -1,0 +1,76 @@
+@font-face {
+    font-family: 'coolvetica';
+    src: url(../assets/fonts/coolvetica\ rg.ttf);
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url(../assets/fonts/Roboto-Light.ttf);
+    font-weight: 300;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url(../assets/fonts/Roboto-Regular.ttf);
+    font-weight: 400;
+}
+*, *::before, *::after{
+    box-sizing: inherit;
+}
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+  scroll-snap-type: y mandatory;
+}
+body {
+  font-size: 16px; /* 1rem = 10px*/
+}
+h1 {
+   font-family: 'coolvetica';
+    font-size: 12rem;
+    color: #0a2ff1;
+    text-align: center;
+    margin: 0;
+    margin-top: 3rem;
+}
+h2{
+    font-family: 'roboto';
+    font-weight: 300;
+    font-size: 4rem;
+    color: #04146c;
+    width: 70%;
+    
+}
+.subtitulo {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.cont-btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.boton1 {
+    background-color: #0a2ff1;
+    color: aliceblue;
+    margin-bottom: 1rem;
+    border: 3px solid #0a2ff1;
+}
+.boton2{
+    color: #04146c;
+    border: 3px solid  #0a2ff1;
+}
+.boton1, .boton2 {
+    font-family: 'roboto';
+    font-size: 4rem;
+    font-weight: 400;
+    border-radius: 3px;
+    width: 40rem;
+    padding: 0.8rem;
+    
+}
+
+.boton2:hover, .boton1:hover {
+    cursor: pointer;
+}
+
