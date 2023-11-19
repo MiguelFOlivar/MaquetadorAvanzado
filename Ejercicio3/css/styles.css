@@ -1,0 +1,84 @@
+@font-face {
+    font-family: 'coolvetica';
+    src: url(../fonts/coolvetica\ rg.otf);
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'Roboto-light';
+    src: url(../fonts/Roboto-Light.ttf);
+    font-weight: 300;
+}
+@font-face {
+    font-family: 'Roboto-rg';
+    src: url(../fonts/Roboto-Regular.ttf);
+    font-weight: 400;
+}
+*, *::before, *::after{
+    box-sizing: inherit;
+}
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+  scroll-snap-type: y mandatory;
+}
+body {
+  font-size: 16px; /* 1rem = 10px*/
+}
+*, *::before, *::after{
+    box-sizing: inherit;
+}
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+  scroll-snap-type: y mandatory;
+}
+body {
+  font-size: 16px; /* 1rem = 10px*/
+}
+main {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+header {
+    padding-left: 10rem;
+    text-align: left;
+}
+.titulo {
+    font-family: 'coolvetica';
+    font-size: 12rem;
+    margin: 0;
+    margin-top: 3rem;
+    color: #0a2ff1;
+}
+.subtitulo {
+    font-family: 'roboto-light';
+    font-size: 4rem;
+    color: #04146c;
+    margin-bottom: 2rem;
+}
+#enf {
+    font-family: 'Roboto-rg';
+    font-weight: bold;
+}
+.card {
+    width: 25%;
+    padding: 1em;
+    background-color: #eff2ff;
+    font-size: 2.4rem;
+    color: #04146c;
+}
+.puntuacion {
+    width: 30%;
+}
+.nombre {
+    font-family: 'roboto-light';
+    font-style: italic;
+}
+.opinion {
+    font-family: 'roboto-rg';
+    font-style: bold;
+}
+.card-texto {
+    color: black;
+}
